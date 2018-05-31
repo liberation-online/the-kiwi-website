@@ -145,10 +145,13 @@ p {
   line-height: 1.6em;
   margin: 0 0 30px 0;
 }
+
+/*Fix For screen width on mobile devices  break word*/
 ul,
 ol {
   line-height: 1.6em;
   margin: 0 0 30px 0;
+	word-break: 
 }
 blockquote {
   padding: 10px 20px;
@@ -872,3 +875,14 @@ progress::-webkit-progress-value { background: 00AB1F; }
 #messagebar {
   display: none;
 }
+
+/*Bootstrap fix for sizing issue on mobile devices*/
+.row {
+	margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.col-lg-8 .table {
+    word-break: break-word;
+}
+/* END Bootstrap fix*/
