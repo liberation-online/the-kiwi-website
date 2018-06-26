@@ -25,28 +25,26 @@ weight = 10
 					<div></div>
 	</div>
 </div>
-		<div class="md-overlay"></div><!-- the overlay element -->
+		<div class="md-overlay"></div>
 		
 <button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-1">Pool Mining Video</button>
 
 <button class="md-trigger md-setperspective btn btn-primary btn-lg" data-modal="modal-2">Solo Mining Video</button>
 
 Please note that CPU mining is no longer viable. You need to mine with GPU using instructions below.<br>
-Also, solo mining is quickly becoming more and more difficult for smaller miners without a decent size rig.<br>
-<br>
-#### Mining Software<br>
+Also, solo mining is quickly becoming more and more difficult for smaller miners without a decent size rig.
+#### Mining Software
 To mine KIWI you need to download and run special software that has been built for the task of mining.<br>
-Currently there are 2 miners that can mine KIWI.<br>
-<br>
+Currently there are 2 miners that can mine KIWI.
+
 1. MVis Token Miner - https://github.com/mining-visualizer/MVis-tokenminer/releases<br>
-2. COSMiC - https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/<br>
-<br>
-**We currently recommend MVis Token Miner and provide details below on how to set up for mining solo, and on a pool. __solo mining__.**
-<br>
+2. COSMiC - https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/
+
+**We currently recommend MVis Token Miner and provide details below on how to set up for mining solo, and on a pool.**
 ##### Setting up MVis Token Miner
-<br><br>
-*These instructions are for GPU mining, it does not make sense to be CPU mining at this stage.*<br>
-<br>
+
+*These instructions are for GPU mining, it does not make sense to be CPU mining at this stage.*
+
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#solomining">Solo Mine</a></li>
     <li><a data-toggle="tab" href="#poolmining">Pool Mining</a></li>
@@ -55,38 +53,28 @@ Currently there are 2 miners that can mine KIWI.<br>
   <div id="solomining" class="tab-pane fade in active">
     <p>
 		You need to have the following:
-		<br>
-<br>
-- An ethereum account with some ETH loaded on it.<br>
- 
-- Your own infura.io url - signup at http://infura.io/signup<br>
-
-- And the MVis Token Miner - download from link above<br>
-
-<br>
+		
+- An ethereum account with some ETH loaded on it. 
+- Your own infura.io url - signup at http://infura.io/signup
+- And the MVis Token Miner - download from link above
 *These instructions were written using <a href="https://github.com/mining-visualizer/MVis-tokenminer/releases/download/v1.1.13/mvis-tokenminer-2.1.13-win64.zip">[MVis-tokenminer 2.1.13]</a> *
-<br><br>
 ##### Step 1
-<br>
 Download and extract MVis Token Miner software to your computer.
-<br>
-<br>
 ##### Step 2
-<br>
-1. In the extracted folder you will see a folder called _tokenminer_, inside this folder<br>
-is a file called __tokenminer.ini__.<br>
-2. Open up this file with Notepad and add your information by finding the differnt places in the file. **DO NOT DELETE THE OTHER INFORMATION IN THIS FILE**, just replace where it asks.:<br>
-  1. Host=https://mainnet.infura.io/your_api_key<br>
-  2. RPCPort=8545<br>
-  3. MinerAcct=0x...................<br>
-  4. AcctPK=........................<br>
-  5. TokenContract=0x2bf91c18cd4ae9c2f2858ef9fe518180f7b5096d<br>
-  6. GasPrice=5<br><br>
+1. In the extracted folder you will see a folder called _tokenminer_, inside this folder
+is a file called __tokenminer.ini__.
+2. Open up this file with Notepad and add your information by finding the differnt places in the file. **DO NOT DELETE THE OTHER INFORMATION IN THIS FILE**, just replace where it asks.:
+  1. Host=https://mainnet.infura.io/your_api_key
+  2. RPCPort=8545
+  3. MinerAcct=0x...................
+  4. AcctPK=........................
+  5. TokenContract=0x2bf91c18cd4ae9c2f2858ef9fe518180f7b5096d
+  6. GasPrice=5
 
-**MinerAcct** is your Ethereum account that should have some ETH.<br>
-**AcctPK** is the private key of your Ethereum account. <br>
-You will need to adjust **GasPrice** as you see fit. Please see the FAQs page for more information.<br>
-<br>
+**MinerAcct** is your Ethereum account that should have some ETH.
+**AcctPK** is the private key of your Ethereum account. 
+You will need to adjust **GasPrice** as you see fit. Please see the FAQs page for more information.
+
 ##### Step 3<br>
 Everything is ready to go. Time to get mining!<br>
 <br>
@@ -96,20 +84,17 @@ Everything is ready to go. Time to get mining!<br>
 
 The command above is starting your miner in solo mode, using 1 GPU. You can adjust the number of cards by changing<br>
 `-t 1` to the number of cards you want to mine with. `-t 2` for example will use 2 cards and double your hash power used for mining. MVIS currently only supports multiple cards of the same brand, you cant mix AMD and NVIDIA.
-	
 	</p>
   </div>
-  <div id="poolmining" class="tab-pane fade">
-    <p>
-    COMING SOON! ... 
-    <!--
+  <div id="poolmining" class="tab-pane fade"><p>
 			You need to have the following:
 
 - An ethereum account.
 - And the MVis Token Miner - download from link above
 
-*These instructions were written using [MVis-tokenminer 2.1.13](https://github.com/mining-visualizer/MVis-tokenminer/releases/download/v1.1.13/mvis-tokenminer-2.1.13-win64.zip)*
+*These instructions were written using [MVis-tokenminer 2.1.13](https://github.com/mining-visualizer/MVis-tokenminer/releases/download/v1.1.13/mvis-tokenminer-2.1.13-win64.zip)*<br>
 *Wolfpool was one of the first pools for KIWI token and these instructions are how to connect them.*
+
 ##### Step 1
 Download and extract MVis Token Miner software to your computer.
 
@@ -133,10 +118,11 @@ Everything is ready to go. Time to get mining!
 
 The command above is starting your miner in pool(-P) mode, using 1 GPU. You can adjust the number of cards by changing
 `-t 1` to the number of cards you want to mine with. `-t 2` for example will use 2 cards and double your hash power used
-for mining.	MVIS currently only supports multiple cards of the same brand, you cant mix AMD and NVIDIA. -->
-	</p>
+for mining.	MVIS currently only supports multiple cards of the same brand, you cant mix AMD and NVIDIA.
+ 
+ </p>
   </div>
+  
 </div>
-<br>
-<br>
+
 Good Luck! If you need further help, please ask in the support channel of Discord - <a href="https://discord.gg/8fm7Dyk">https://discord.gg/8fm7Dyk</a>
