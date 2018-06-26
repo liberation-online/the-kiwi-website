@@ -57,6 +57,7 @@ Currently there are 2 miners that can mine KIWI.
 - An ethereum account with some ETH loaded on it. 
 - Your own infura.io url - signup at http://infura.io/signup
 - And the MVis Token Miner - download from link above
+
 *These instructions were written using <a href="https://github.com/mining-visualizer/MVis-tokenminer/releases/download/v1.1.13/mvis-tokenminer-2.1.13-win64.zip">[MVis-tokenminer 2.1.13]</a> *
 ##### Step 1
 Download and extract MVis Token Miner software to your computer.
