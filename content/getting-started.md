@@ -107,7 +107,7 @@ is a file called __tokenminer.ini__.
   3. MinerAcct=0x...................
   5. TokenContract=0x2bf91c18cd4ae9c2f2858ef9fe518180f7b5096d
 
-**MinerAcct** is your Ethereum account that should have some ETH. \
+**MinerAcct** is your Ethereum account. \
 
 ##### Step 3
 Everything is ready to go. Time to get mining!
