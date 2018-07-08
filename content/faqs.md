@@ -1,7 +1,8 @@
 +++
-menu = "main"
-title = "FAQs"
+title = "FAQ | KIWI Token"
 pagetitle = "Frequently Asked Questions"
+Keywords = "KIWI,Token,cryptocurrency"
+Description = "KIWI Token is not just another fork of a mineable token with a new name.  KIWI is a utility token which is going to offer services and products which will utilize KIWI as the primary source of currency."
 type = ""
 weight = 11
 Comments = false

@@ -1,12 +1,15 @@
 baseURL = "https://www.thekiwi.online/"
 languageCode = "en-us"
-title = "Kiwi"
+title = "The Kiwi Token | Mineable ERC-20/ERC-918 Token"
+Description = "One of the first mineable ERC-20 / ERC-918 tokens, which offers a variety of products being developed behind the scenes that will use KIWI Token as the source of payment. KIWI is a utility token and will offer tangible services and products."
 theme = "hugo-initio"
 publishDir = "docs"
 
 [params]
     name = "The KIWI"
+	keywords = "KIWI,token,cryptocurrency,ERC-20,ERC-918"  #fallback for homepage
     description = "A mineable ERC-20 / ERC-918 Token"
+	SiteDescription = "One of the first mineable ERC-20 / ERC-918 tokens, which offers a variety of products being developed behind the scenes that will use KIWI Token." #fallback for homepage
     email = "contact@thekiwi.online"
     phone = ""
     address = ""
@@ -32,11 +35,37 @@ publishDir = "docs"
     name = "home"
     url = "/"
     weight = 1
+	
+[[menu.main]]
+    identifier = "faqs"
+    name = "FAQS"
+    url = "/faqs/"
+    weight = 5
+	
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "community"
+    name = "Our Community"
+    url = "/community/"
+    weight = 3
+
+[[menu.main]]
+    identifier = "getting-started"
+    name = "Get Started"
+    url = "/getting-started/"
+    weight = 4
 
 [[menu.main]]
     name = "stats"
     url = "http://thekiwi.info"
     weight = 11
+
+
 
 [params.disqus]
     site = "the-kiwi.disqus.com"

@@ -1,7 +1,8 @@
 +++
-menu = "main"
 pagetitle = "How to mine KIWI: A Beginners Guide"
-title = "Get Started"
+title = "Get Started | How to mine KIWI Token"
+Keywords = "KIWI,Token,cryptocurrency"
+Description = "Please follow the instructions showing how to mine KIWI Token solo or pool mining, one of the first ERC-20 / ERC-918 mineable tokens which offers tangible products being developed that will utilize KIWI token. Get some now before its too late!"
 type = ""
 weight = 10
 +++

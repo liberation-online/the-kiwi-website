@@ -1,7 +1,8 @@
 +++
-menu = "main"
-title = "Our Community"
 pagetitle = "Our Community"
+title = "Our Community | The KIWI Token"
+Description = "The KIWI Token offers a friendly community behind it. Very open developers willing to answer even the simplest of questions, whom are very knowledgable in the cryptocurrency world. There is no ICO, zero premine."
+Keywords = "KIWI,Token,cryptocurrency"
 type = ""
 weight = 9
 Comments = false
@@ -36,13 +37,7 @@ Comments = false
 <div class="row section featured topspace">
     <h2 class="section-title"><span>Why not join us?</span></h2>
     <div class="col-lg-8">
-      <p>At last count we had <strong>399</strong> members on our discord channel and over <strong>200</strong> miners that are mining new KIWI every few minutes. We see new members join us everyday, but it is still early days.<br><br>
-      Our members also help out in a number of different ways:</p>
-      <ul>
-        <li><strong>ToasT</strong> - Discord Support</li>
-        <li><strong>blackpaw78</strong> - Discord Support and made mining video</li>
-        <li><strong>silvioj</strong> - Discord Support and has helped with website design fixes</li>
-      </ul>
+      <p>At last count we had <strong>399</strong> members on our discord channel and over <strong>200</strong> miners that are mining new KIWI every few minutes. We see new members join us everyday, but it is still early days.</p>
     </div>
     <div class="col-lg-4">
       <div class="panel panel-cta">

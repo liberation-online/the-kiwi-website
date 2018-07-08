@@ -1,9 +1,11 @@
 +++
-menu = "main"
-title = "About"
+pagetitle = "About The KIWI Token"
+title = "About | The KIWI Token"
 type = ""
 weight = 3
 Comments = false
+Keywords = "KIWI,Token,cryptocurrency"
+Description = "A mineable ERC-20 / ERC-918 Token which will offer products and services developed by Liberation Online, which will use KIWI as the primary source for payments."
 +++
 
 ### What is KIWI?
